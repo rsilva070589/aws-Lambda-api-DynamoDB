@@ -18,7 +18,7 @@ git branch -M main
  
 git remote add origin https://github.com/rsilva070589/aws-Lambda-api-DynamoDB.git
 
-git force push -u origin main
+git push -f origin main
  
 
  
