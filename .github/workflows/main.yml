@@ -3,14 +3,14 @@ name: Deploy DynamoDB CRUD API
 on:
   push:
     branches: [ main ]
- jobs:
-   deploy:
+jobs:
+  deploy:
     name: deploy
 
-      runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-     steps:
-      - uses: actions/checkout@v2
+    steps:
+    - uses: actions/checkout@v2
 
     - uses: actions/cache@v2
       with:
